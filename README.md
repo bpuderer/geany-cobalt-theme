@@ -1,0 +1,1 @@
+# geany-cobalt-theme
