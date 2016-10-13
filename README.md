@@ -17,3 +17,5 @@ JSON Pretty Print `python -m json.tool`
 XML Pretty Print `xmllint --format -` or `python -c 'import sys;import xml.dom.minidom;s=sys.stdin.read();print xml.dom.minidom.parseString(s).toprettyxml()'`
 
 Sort Lines `sort`
+
+Sort Lines and Remove Duplicates `sh -c 'sort | uniq'`
