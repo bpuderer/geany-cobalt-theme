@@ -21,3 +21,5 @@ Sort Lines `sort`
 Sort Lines and Remove Duplicates `sh -c 'sort | uniq'`
 
 Remove CR and LF `tr -d '\r\n'`
+
+Python obj to JSON `python -c 'import sys;import json;import ast;s=sys.stdin.read();print json.dumps(ast.literal_eval(s))'`
