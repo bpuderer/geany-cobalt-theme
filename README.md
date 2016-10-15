@@ -10,7 +10,7 @@ Copy `cobalt.conf` to `~/.config/geany/colorschemes/.`
 
 ## Lagniappe
 
-Format > Send Selection to > Set Custom Commands
+**Format > Send Selection to > Set Custom Commands**
 
 JSON Pretty Print `python -m json.tool`
 
@@ -19,3 +19,5 @@ XML Pretty Print `xmllint --format -` or `python -c 'import sys;import xml.dom.m
 Sort Lines `sort`
 
 Sort Lines and Remove Duplicates `sh -c 'sort | uniq'`
+
+Remove CR and LF `tr -d '\r\n'`
